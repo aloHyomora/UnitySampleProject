@@ -1,0 +1,56 @@
+경마게임 의사코드작성
+1. GameObject 5개를 동시에 전진시킨다.
+2. 전진시에 랜덤한 속도로 움직인다.
+3. 전진시에 GameObject의 위치가 결승점을 넘었을 경우 등수를 메긴다.
+4. GameObject 5개 모두 결승점을 넘었을 경우 달리기를 중단한다.
+5. GameObject중 1,2,3등을 한 친구들은 각각 단상의 1,2,3등에 위치시킨다.
+
+1개의 스크립트에 만들고 5개의 오브젝트에 각각 적용 
+리스트로 안만듬. transform컴포넌트 . position을 가져온다.
+
+
+Transform tr
+Random random
+isHorseFinished = false
+isGameFinished = false
+
+tr transform
+Vector 3 location = this.transform.position
+
+Run()
+random = new Random(); 인스턴스화
+location += Vector3 (0, random(10 ~15), 0) 
+
+main
+while(isHorseFinished)
+Run()
+if(location>200) isHorseFinished= true
+
+5개 각각의 오브젝트에 적용할 컴포넌트 
+말 다섯마리의 isHorseFinished = true가 
+ 흑흑 나의 의사코드임..
+
+
+
+의사코드 
+1. GameObject 5개를 동시에 전진시킨다.
+2. 전진시에 랜덤한 속도로 움직인다.
+3. 전진시에 GameObject의 위치가 결승점을 넘었을 경우 등수를 메긴다.
+4. GameObject 5개 모두 결승점을 넘었을 경우 달리기를 중단한다.
+5. GameObject중 1,2,3등을 한 친구들은 각각 단상의 1,2,3등에 위치시킨다.
+
+1. List<GameObject>에 5개 초기화
+2. for문으로GameObject 5개의 각각 랜덤한 전진 거리를 구한
+  for(List<GameObject>.Count)
+             moveDistance = Random.(min, max)
+             List[i].position += moveDistance         //전진 거리만큼 GameObject5개를 각각 전진시킨다.
+             if (GameObject 위치 > 결승점 위치 ) 
+                   등수별 리스트에 해당 GameObject추가한다.
+   for문 끝
+
+3. if ( 등수리스트.Count >= 5 ) 
+         등수리스트[0].position= 1등 단상.position
+         등수리스트[1].position= 2등 단상.position
+         등수리스트[2].position= 3등 단상.position
+
+

@@ -1,0 +1,108 @@
+1.Scenes
+2.Scripts
+3.Prefabs - 씬 전환후에도 관리용이하게 prefab에 넣어놓고 복사해서 사용
+4.Images
+5.Models
+6.MAterials
+7.Textures
+8.sounds
+9.Animations
+10.Physics
+
+
+Vector3 dir = Vector3.forward -> 의미 z축으로 크기 1?
+tr.Translate(move)     -> 의미   ->
+Remove
+Removeat 차이
+canvas켜놓고 다시 scene창돌아가기
+
+싱글턴패턴 
+해당클래스의 인스턴스를 다른 클래스에서 접근하게 용이한 
+자기 자신에 대한 인스턴스를 만듬
+GamePlay의 instance에 접근할 수 있다
+
+Input클래스키입력--> 무조건 Update()함수에서만 사용가능
+
+
+UI
+canvas 생성 EventSystem같이 추가됨 
+왜? 
+컴포넌트에 canvas, canvas Scaler, Graphic Raycaster잇다.
+canvas컴포넌트에 Render Mode 
+Overlay 
+Camera설정 -> 화면에 딱 맞출 수있게
+World Space -> 체력표시? 
+canvas Scaler
+constant -> 화면비율 고정
+Scale with Screen -> 기기에 따라 해상도 바뀐다. 
+Scale 하고Match로 가로에 맞출지 세로에 맞출지 결정
+
+canvas 생성 EventSystem같이 추가됨 
+왜? 클릭 이벤트발생시 상호작용을 위해 
+UI canvas 에 UI button을 종속시켜 사용한다.  (fps 게임 내 조이스틱)
+UI 컴포넌트는 Rect Transform에서 변경가능
+앤커?를 맞춰놓지 않으면 해상도에 따라서 버튼이 사라질 수 있다.
+Canvas에 종속시켜 놓은  button -> Canvas의 원점을 기준으로 Rect Transform이
+변한다. alt를 누른 상태로 Rect Transform에서 button ui를 옮긴다. 
+button모양은 Source Image에서 바꾼다.
+클릭하면 button사라지기 on Click 에서 자기자신 넣고 GameObject.SetActive()
+
+Button의 On Click() -- GamePlay를 가지고 있는 오브젝트를 넣고 GamePlay컴포넌트에
+접근해서 그 속의 playgame함수를 호출한다. 
+
+* 주의 * 
+게임오브젝트간 호출 할 때는 Hierarchy창의 오브젝트만 적용 가능
+
+Skybox사용
+material로 색상변경 Albedo
+처음 오브젝트 생성 위치 Preferences- Sceneview - Origin 체크
+
+오브젝트 선택 T 위로만 아래로만 스케일변경가능
+스케일 선택후 크기늘리면 오브젝트의 중심기준으로 사방으로 커짐.
+
+ctrl + rr 이름 한번에 바꾸기
+
+GitHub 유니티 프로젝트 연동
+gitignore파일을 유니티프로젝트파일 안에 복붙하고 그걸 다시 가져온다.
+
+intelliSense!  유니티-> c#script 자동완성안됨 
+Edit -> preferences -> external tools -> script Editor ->visual studio 2022로 바꾸고 
+그래도 안된다면 Regenerate project files 클릭
+
+draw.io로 알고리즘 설계후 코드작성
+클래스, 오브젝트, -->대소문자구분 잘 지켜야 함. 나중에 프로젝트 찾기 힘듬. 협업에 마이너스
+이름 작성은 개발에서 중요한 요소
+
+의사코드
+알고리즘 
+ 문제를 해결하는 절차. 밥을 먹는다. 쌀을 씻고 밥통에 올리고 취사 먹는다
+해결하는 절차를 말함.
+
+통역하는 부분에서 다른 부분에 대한 설명
+
+한국어를 영어로 번역할때와 다르게,
+자연어(일반적인 사람의 언어)를 컴퓨터 언어로 바꿀때
+자연어가 논리적인 문장 순서로 재해석 되어야 한다.
+일어나야하고 쌀을 고르고 쌀을 몇번씻고....
+이렇게 재해석된 논리적인 문제 해결 절차를 알고리즘이라고 한다.
+알고리즘 작성이 어렵기 때문에 의사코드(psuedo code)를 활용해서
+논리적인 사고에 익숙해 지도록한다.
+80설계 20코드작성  시간이 걸리더라도 설계를 하고 
+draw.io로 클래스만들고 설계부터함.
+이 모든것의 기초인 의사코드를 배워보자
+
+진행 순서
+자연어 문제 -> 논리적 세분화 -> 의사코드작성(논리적세분화를 자기많의코드)
+->코드작성
+
+예시 
+"1부터 n까지 합계를 구하는 함수"의 의사코드 작성
+
+세분화 예시1
+
+의사코드
+
+
+
+
+
