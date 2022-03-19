@@ -1,0 +1,232 @@
+Remove  -> 지우고 땡김
+for(i=0 ; i<list.count; i++)
+   Remove.List[i]
+
+01234   Remove.List[0]    지움
+0123    Remove.List[1]    원래 2번 지움
+012      Remove.List[2]    원래 5번지움
+01        Remove.List[3]    못지움
+0         Remove.List[4]    못지움
+
+usnig System.Linq;
+
+foreach( var item in players.ToList( )
+
+foreach로 돌리거나 for로 역순으로 돌린다.
+
+프로젝트 진행 과정
+제안→ 기획→ 프로토타이핑 → 프로젝트착수 → 개발 → 알파버전 → 베타버전 → 출시
+
+/////////////////////////////
+슈팅게임
+
+UI 작업시
+Canvas생성 Canvas Scaler -Scale with Screen Size, 해상도 맞추기 Match 0.5 width - 너비에 맞추고 Height 높이 에맞추고
+안맞추면 나중에 다시 작업많이해야함
+
+플레이어생성
+Cube -Cylinder FirePoint로 종속 탱크모양플레이어 생성
+
+Mani Camera
+플레이어 위에서 볼 수 있도록 설정 
+Position 바꾸고 Rotation x = 90 
+
+PlayerMove 스크립트 생성, 플레이어의 움직임을 만든다.
+
+Awake() 함수에서 게임오브젝트는 Awake에서 Transform 받아옴
+캐싱?
+
+private void Update() //키입력 Update
+    {
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        move = new Vector3(h, 0, v); 
+    }
+move = new Vector3(h, 0, v).normalized --> 누르면 딱 멈출수있게 
+move = new Vector3(h, 0, v); 눌러도 자연스럽게 속도 준다 -> 그냥 
+
+
+GetAxis
+ 유니티에서 기본적으로 제공
+Negative Button과 Positive Button이 보일겁니다.
+Negative Button은 해당 입력이 들어왔을 때 음수를, Positive Button엔 그 반대인 양수를 
+반환합니다.
+이 구문을 이용해서 더 수월하게 조작키 작업이 가능합니다.
+
+
+Input.GetAxisRaw 가 있습니다. Input.GetAxis는 '부드럽게' 값을 받아오고, 
+Input.GetAxisRaw는 GetKey 함수처럼 눌렸을 때 즉시 값을 받아옵니다.
+
+그래서 대부분 이동과 관련된 조작의 경우 GetAxis를, 
+스킬 사용 등 기능적인 조작은 GetAxisRaw를 사용합니다.
+
+
+
+플레이어 총알을 쏘는(생성) 스크립트, 총알은 자신의 스크립트를 가져 이동을 함
+PlayerFire                                  ,   Bullet 
+
+PlayerFire
+똑같은 객체 찍어내는건 prefab이 좋음
+1. Rotation x =90
+2. 컴포넌트 다 지움(빈 오브젝트) - 상속 Render Capsule생성 좌표계는 Bullet의 위치를 
+받아옴.
+03. Prefab받아오고 총알 프리팹생성
+만든 bullet 프리팹에 대해 게임오브젝트를 받는다.
+Instantiate Object클래스의 멤버함수 Mono의자식
+원본original을 넣어주면 Origing, Vector3, rotation, Transform parent(플레이어에 종속됨)을 가져옴
+                                                        		@@@ 언제씀? 생성 게임오브젝트가 다른걸 따라 다녀야 할때 스타크래프트 따라다니는??,  펫
+오브젝트 새로 생성하기
+Instantiate(bulletPrefab, firePoint.position , Quaternion.identity);
+bulletPrefab은 오브젝트 자신, prefab도 가능
+firePoint.position는 Vector3 3차원상 위치 
+Quaternion는 rotation의 클래스 -->  Quaternion.identity 는 rotation 0, 0, 0으로 세팅
+4원수기반으로 만들어짐 오일러각도 ㄴㄴ
+왜 Quaternion으로 쓰냐? 쿼터니언은 회전을 표현하기 위해 사용 
+짐벌 락(gimbal lock)에 걸리지 않고, 쉽게 보간될 수 있기 때문.
+짐벌 락(gimbal lock)이 뭘까? 3차원에서 축을 회전하다가 축이 맞물리는 순간 3차원에서
+2차원으로 표현이 된다. 이런 차원이 낮아지는 순간 예외에 대한 것을 막을려고 4원수 
+Quaternion을 사용. (유니티 기반)
+
+
+Bullet클래스
+//나가야한다 벡터 속도필요 
+public Vector3 dir =  Vector3.forward; //방향
+    public float speed = 5f;
+    Transform tr; ->Awake로 컴포넌트가져옴
+FixedUpdate에서 총알 이동
+tr.Translate(dir * speed * Time.fixedDeltaTime);
+
+
+GetKey로 출력하면 키가 눌린상태면 총알이 길게 이어져보인다. 프레임에 영향받음
+시간간격을 준다. 
+public float fireTimeGap = 0.3f;
+private float fireTimer;
+
+if(fireTimer < 0 && Input.GetKey(KeyCode.Space) ) //fireTimer가 0밑으로 내려가면 실행!
+{
+Instantiate(~)
+fireTimer = fireTimeGap;
+}
+else fireTimer -= Time.deltaTime;
+-----------------------------------------------아래는 누르고 있으면 0.3f로 계속발사 연타하면 돧다ㅏ다ㅏㄷ
+if(fireTimer < 0 && Input.GetKeydown(KeyCode.Space) ) //fireTimer가 0밑으로 내려가면 실행!
+{
+Instantiate(~)
+fireTimer = fireTimeGap;
+}
+else fireTimer -= Time.deltaTime;
+
+=====================================
+EnemyMove 적이 -z방향으로 내려옴
+Bullet스크립트 복사하고 Vector3.back으로 속도 바꾸고
+
+Enemy 충돌감지컴포넌트 Collider!
+실제로 보이는 것과 달리 충돌표시하고 싶으면 Edit Collider로 편집가능
+Enemy가 플레이어 부딪히면 플레이어 체력을 깎고 자기자신도 파괴하는 
+Enemy안에 충돌감지하는 이벤트함수 생성
+1.Collision 충돌 시 물리적연산 진짜 충돌
+2.Trigger 충돌 시 충돌했다는 신호만. 지나가면 이벤트 발생하겠다. 
+Enter충돌하는 순간 -> 총알부딪힘  
+Exit충돌 떨어지는    ->
+Stay 겹쳐있는 순간  -> 아이템 드랍할 때 onTriggerStay로 들어와있다 신호 -> 줍기 키 입력 -> 줍는다. 
+
+OnCollisionEnter
+콜라이더/리지드바디 --> 리지드바디/콜라이더  충돌시 호출  콜라이더끼리, 리지드바디끼리 충돌 시 호출 x
+Player도 콜라이더 가짐 Enemy도 콜라이더 가짐 아무 일도 없음.
+
+Rigidbody
+Mass : 질량
+Drag : 직선방향의공기저항
+Angular Drag : 각운동시  공기저항
+Use Gravity : 중력 작용
+Is Kinematic : 체크 시 운동 대한 모든 연산을 내가 알아서 할거다
+EnemyMove로 움직임 0-> 체크해야지
+
+Interpolate 선형운동을 비 선형으로 만듬 
+0>1, 1>5  자연스러운    
+정해진 위치변화 움직임을 만들기 위함
+Extrapolate Interpolate에 더해 다음의 위치도 예상해서 보안하겠다. 
+
+prefab에서 바꾼거를 
+프리팹복사본(하이어라키 창의 파란색글씨 == Prefab에 있는 걸 가져다쓴경우)
+에 보면 Overrides 보임 복사본과 원본이 다르면 
+Revert all, 
+원본의 변경사항을 복사본에 적용, 
+Apply all
+복사본의 변경사항을 원본에 적용
+
+하이어라키창 enemy 우클릭 - Prefab - unpack 복사본이 아닌 게임오브젝트로 바꿈
+다시 종속은 못함? 그냥 Prefab에서 가져와야ㅑ함? @@@@@
+아그리고 .gitignore해서 github파일을 붙여넣기 하면? asset package는 다있고
+Hierarchy창에 게임오브젝트는 생성되지않는다. 원래그런거?
+
+Player 콜라이더만
+Enemy 콜라이더, 리지드바디 두개
+어느 것에 Is Trigger을 체크해야 할까?  Player에 Trigger설정해야 한다. 
+enemy는 콜라이더만 가지거나 리지드바디를 가진 오브젝트와 둘 다 상호작용가능.
+Is Trigger 체크하면 Trigger로만 가능 
+collision도 하고싶음 Collider 컴포넌트 추가 
+
+(리지드 바디는 콜라이더(부피)와 함께 해야한다.)
+리지드바디 혼자 있다면 질량은 있는데 ? 부피는 없는 상태  --> 충돌 일어나지않음.
+리지드 바디는 여러개의콜라이더와 함께 쓸 수 있다. 
+
+메시필터 : 3D 메시 파일을 받아 오브젝트의 외곽선을 지정  
+메시렌더러: 메시를 따라 색을 채워 그래프 외형을 그린다.
+
+Collider -> Material 마찰력, 탄성계수 등을 다룰 수 있다.
+탄성계수 Bounciness ( 0 ~ 1 ) 적용하면 계속 떨어지고 튀어오르는 탱탱볼! 
+
+Enemy에적용,   is Trigger 체크는 Player에
+private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }  
+결과 Enemy 와 Player 충돌 시 Enemy 오브젝트 Destroy
+
+Bullet의  Capsule 콜라이더의 Is Trigger 체크하면 bullet 과 충돌시에도 Enemy Destroy
+총알 없애는건 총알 내에서 구현하는게 좋다 . 
+불렛클래스에서
+
+인스펙터 -레이어 32가지의 레이어를 설정가능
+적의 종류가 다양해지면 if문으로 다써야한다. 그때 이용
+레이어에 플레이어 플레이어프로젝티스 enemy 생성
+바꾼다. No, this Object only 체크 -> 부모객체에 콜라이더와 리지드바디 모두 있기 때문에 가능
+자식과 레이어 나눌경우 
+캐릭터가 땅을 밟고 있는경우 체크해야 점프 할 수 있는데
+점프하고 enemy와 부딪혔을 때 구분해야함 -->잠깐 콜라이더비활성화하고 하는 작업 필요함.
+그런 경우 콜라이더를 나눠야 할 때 자식과 부모로 레이어를 나눔.
+
+Bullet 클래스에서 OnTriggerEnter로 
+GameObject go = other.gameObject Bullet과 충돌한 게임오브젝트 받아오고
+if(go.layer == LayerMask.NameToLayer("Enemy")) Destroy(go); 
+충돌한 오브젝트의 layer이 "Enemy" 라면 Destory(go)한다.
+
+Destory하면 참조값을 바꿀 뿐이지 나중에 가비지컬렉터가 정리함. 
+그때의 Cpu의 일이 많아진다. 최대한 게임오브젝트들을 제거 할 일 없이 
+게임 로딩시 오브젝트 비활성화해놓고 사용할 때 활성화하는 방식
+오브젝트 쿨링!
+
+-----------------------------------------------------------
+EnemySpawner 총알과 다르게 firepoint에서 생성하지만 enemy는 랜덤생성할거야
+직사각형의 범위를 사용
+Vector3 생성 일반식!
+총알과 비슷하게 spawnTimeGap = 0.3f spawnTimer 으로 생성시간 조절
+생성 범위의 
+가시적으로 볼 수 있게 하는 방법있지만 오늘은 못함 ㅜㅠ
+
+gizmo를 이용해 그리는 걸 컨트롤할 수 있다. 
+private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green; // new Color(a,a,a,) rgb세팅도 가능
+        Gizmos.DrawCube(rangeCenter, rangeSize);
+        //Gizmos.DrawWireCube(rangeCenter, rangeSize); 모서리만 보고싶다. 
+    }
+
+enemy끼리 충돌 막기
+edit - projectSetting -physics - Layer Collision Matrix
+
+
+spawnTimer 
+
+파괴시 effect만들기
