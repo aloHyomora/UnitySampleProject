@@ -18,12 +18,14 @@ Physical거의 안씀
 
 Graphic Raycaster ?? @@
 
+UI - Text추가했는데 안보이면 overflow확인
 Text 
 Font Size가 Rect Transform 의 Height를 초과하면 
 넘어간다.
 초과해도 표시하겠다
 Horzontal Overflow - Overflow 
 Vertical Overflow - Overflow 
+
 
 원하는 폰트넣고 싶으면 
 google Fonts에서 다운받아 Asset에 넣으면 Font Style에 뜰거다.
