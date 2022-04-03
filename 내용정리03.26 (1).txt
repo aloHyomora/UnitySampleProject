@@ -1,0 +1,99 @@
+Canvas
+카트라이더 ( 적 뒤에있다 )보조카메라 사용
+Canvas 
+Render Mode - Screen Space
+Overlay -
+World Space적 hp 
+
+Enemy - hp가 따라다녀야함
+
+Canvas Scaler !!
+Constant Pixel Size 
+휴대폰 기종마다 사이즈다르지만
+똑같은 사이즈로 만든다.
+Scale with Scrren 맞춤 ! 다양한 기기 호환
+Match 0.5로설정
+
+Physical거의 안씀
+
+Graphic Raycaster ?? @@
+
+UI - Text추가했는데 안보이면 overflow확인
+Text 
+Font Size가 Rect Transform 의 Height를 초과하면 
+넘어간다.
+초과해도 표시하겠다
+Horzontal Overflow - Overflow 
+Vertical Overflow - Overflow 
+
+
+원하는 폰트넣고 싶으면 
+google Fonts에서 다운받아 Asset에 넣으면 Font Style에 뜰거다.
+Raycast Target 체크 
+-> Canvas체크할 때 Text도 체크하겠다.
+
+Rect Transform의 Pos X, Pos Y, Pos Z는 Anchor Presset
+의 중심 상하좌우 기준으로 위치한 자표를 나타냄 
+옮기고 싶으면 Alt + 클릭하면 옮겨짐
+
+Text를 ScoreTitle, ScoreValue로 종속시켜 두 개로 나눔.
+
+
+
+Slider 컴포넌트
+사용자가 드래그할 수 있는 설정 
+Interactable
+Min Value, Max Value (체력을 전체스케일로 나눈 값을 대입)
+HPBar은 Handle하지 않기 때문에 비활성화 
+Fill Area Right 15 -> 5 Handle하지 않기 때문에 
+HPBar 배경색 조?정
+전체사이즈 맞추기 백그라운드 늘리고 줄이기
+
+
+실제 값을 읽을 때는 프로퍼티에 접근해서 읽고쓴다.
+set, get으로 두는 이유 ? 굳이 _hp, hp
+set,get안에서 다른 작업을 할 수 있기 때문에
+프로퍼티를 안쓰면 함수를 많이 만드러야함.
+public, private 접근지정자는 보통 private로 세팅
+멤버필드를 public으로 하려하지 않고 public으로 하면
+추가로 메모리 할당된다. 
+객체지향프로그래밍에서 지양해야 할 부분이다. 
+private인데 변수에 접근해야 할 경우가 있다
+get,set함수를 통해서 메모리절약한다. 그래서 set, get
+를 통해 함. 
+
+_hp.ToStirng() --> int _hp를 string으로 바꿈.
+
+
+싱글턴 패턴 
+static == 클래스에 직접 접근할 수 있는 타입으로 
+인스턴스화하면 클래스에 접근가능하다. 
+public Player player로 할당하면 Player클래스 크기의
+힙영역메모리를 잡아먹는다. 굉장히 큰 메모리소모
+public static Player instance;
+private void Awake()
+    {
+        instance = this;
+    }
+다른 클래스에서 Player.instace로 접근가능
+정적변수에 할당되어있는 객체에 접근한다.
+
+체력게이지 표현
+UI
+플레이어 HP, 적 HP
+Player,Enemy 스크립트에 
+TargetLayer, Damage, Score, HpMax, HpSlider
+
+UI 적용 관계
+
+
+
+
+
+
+
+
+
+
+
+ 

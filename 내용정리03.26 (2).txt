@@ -1,0 +1,28 @@
+2D 간단한게임 RollADice
+
+리소스 다운받고 
+DicePlayUI, Panel 생성
+Canvas Scaler 해상도맞추고 Match 0.5
+
+// prefab설정 
+edit- projectsetting- Editor- Numbering Scheme
+넘버링 스타일 변경
+
+NormalDice (UI 엠티)
+-Image BG 
+BG에 Outline, Shadow적용
+-Button Anchor전체 오른쪽아래 
+Button Image에 주사위 이미지 적용
+ctrl D 로 GoldenDice도 생성
+
+그냥 엠티
+Transform
+
+UI 안에 엠티 Rect Transform 신경써야한다.
+
+DicePlayUI 에다가 DicePlayManager스크립트 넣고
+NormalDice, GoldenDice의 Button - On Click
+DicePlayUI를 넣고 DicePlayManager.RollADice 설정
+
+화면에 주사위 점수 ~ 표시
+->UI

@@ -23,14 +23,11 @@ public class EnemySpawner : MonoBehaviour
         if (spawnTimer < 0)
         {
             Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
-            spawnTimer = spawnTimeGap;
-            Debug.Log("Instantiate");
+            spawnTimer = spawnTimeGap;            
         }
         else
         {
-            spawnTimer -= Time.deltaTime;
-            Debug.Log("deltaTime"+Time.deltaTime);
-            Debug.Log("spawnTimer"+spawnTimer);
+            spawnTimer -= Time.deltaTime;            
         }
     }
     private void OnDrawGizmos()
