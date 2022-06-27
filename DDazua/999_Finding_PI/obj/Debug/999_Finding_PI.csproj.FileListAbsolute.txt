@@ -1,0 +1,8 @@
+D:\C#\DDazua\999_Finding_PI\bin\Debug\999_Finding_PI.exe.config
+D:\C#\DDazua\999_Finding_PI\bin\Debug\999_Finding_PI.exe
+D:\C#\DDazua\999_Finding_PI\bin\Debug\999_Finding_PI.pdb
+D:\C#\DDazua\999_Finding_PI\obj\Debug\999_Finding_PI.csproj.AssemblyReference.cache
+D:\C#\DDazua\999_Finding_PI\obj\Debug\999_Finding_PI.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\999_Finding_PI\obj\Debug\999_Finding_PI.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\999_Finding_PI\obj\Debug\999_Finding_PI.exe
+D:\C#\DDazua\999_Finding_PI\obj\Debug\999_Finding_PI.pdb

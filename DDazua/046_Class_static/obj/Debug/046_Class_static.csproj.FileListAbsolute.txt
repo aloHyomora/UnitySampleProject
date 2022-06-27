@@ -1,0 +1,8 @@
+D:\C#\DDazua\046_Class_static\bin\Debug\046_Class_static.exe.config
+D:\C#\DDazua\046_Class_static\bin\Debug\046_Class_static.exe
+D:\C#\DDazua\046_Class_static\bin\Debug\046_Class_static.pdb
+D:\C#\DDazua\046_Class_static\obj\Debug\046_Class_static.csproj.AssemblyReference.cache
+D:\C#\DDazua\046_Class_static\obj\Debug\046_Class_static.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\046_Class_static\obj\Debug\046_Class_static.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\046_Class_static\obj\Debug\046_Class_static.exe
+D:\C#\DDazua\046_Class_static\obj\Debug\046_Class_static.pdb

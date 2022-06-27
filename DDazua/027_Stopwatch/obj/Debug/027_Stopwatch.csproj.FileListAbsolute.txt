@@ -1,0 +1,7 @@
+D:\C#\DDazua\027_Stopwatch\obj\Debug\027_Stopwatch.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\027_Stopwatch\obj\Debug\027_Stopwatch.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\027_Stopwatch\bin\Debug\027_Stopwatch.exe.config
+D:\C#\DDazua\027_Stopwatch\bin\Debug\027_Stopwatch.exe
+D:\C#\DDazua\027_Stopwatch\bin\Debug\027_Stopwatch.pdb
+D:\C#\DDazua\027_Stopwatch\obj\Debug\027_Stopwatch.exe
+D:\C#\DDazua\027_Stopwatch\obj\Debug\027_Stopwatch.pdb

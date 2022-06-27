@@ -1,0 +1,8 @@
+D:\C#\DDazua\033_Mehod\bin\Debug\033_Mehod.exe.config
+D:\C#\DDazua\033_Mehod\bin\Debug\033_Mehod.exe
+D:\C#\DDazua\033_Mehod\bin\Debug\033_Mehod.pdb
+D:\C#\DDazua\033_Mehod\obj\Debug\033_Mehod.csproj.AssemblyReference.cache
+D:\C#\DDazua\033_Mehod\obj\Debug\033_Mehod.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\033_Mehod\obj\Debug\033_Mehod.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\033_Mehod\obj\Debug\033_Mehod.exe
+D:\C#\DDazua\033_Mehod\obj\Debug\033_Mehod.pdb

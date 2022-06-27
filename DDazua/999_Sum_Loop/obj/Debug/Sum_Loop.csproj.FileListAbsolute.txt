@@ -1,0 +1,8 @@
+D:\C#\DDazua\Sum_Loop\bin\Debug\Sum_Loop.exe.config
+D:\C#\DDazua\Sum_Loop\bin\Debug\Sum_Loop.exe
+D:\C#\DDazua\Sum_Loop\bin\Debug\Sum_Loop.pdb
+D:\C#\DDazua\Sum_Loop\obj\Debug\Sum_Loop.csproj.AssemblyReference.cache
+D:\C#\DDazua\Sum_Loop\obj\Debug\Sum_Loop.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\Sum_Loop\obj\Debug\Sum_Loop.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\Sum_Loop\obj\Debug\Sum_Loop.exe
+D:\C#\DDazua\Sum_Loop\obj\Debug\Sum_Loop.pdb

@@ -1,0 +1,8 @@
+D:\C#\DDazua\999_PrimeNumber\bin\Debug\999_PrimeNumber.exe.config
+D:\C#\DDazua\999_PrimeNumber\bin\Debug\999_PrimeNumber.exe
+D:\C#\DDazua\999_PrimeNumber\bin\Debug\999_PrimeNumber.pdb
+D:\C#\DDazua\999_PrimeNumber\obj\Debug\999_PrimeNumber.csproj.AssemblyReference.cache
+D:\C#\DDazua\999_PrimeNumber\obj\Debug\999_PrimeNumber.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\999_PrimeNumber\obj\Debug\999_PrimeNumber.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\999_PrimeNumber\obj\Debug\999_PrimeNumber.exe
+D:\C#\DDazua\999_PrimeNumber\obj\Debug\999_PrimeNumber.pdb

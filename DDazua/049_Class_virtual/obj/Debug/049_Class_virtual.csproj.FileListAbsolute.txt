@@ -1,0 +1,8 @@
+D:\C#\DDazua\049_Class_virtual\obj\Debug\049_Class_virtual.csproj.AssemblyReference.cache
+D:\C#\DDazua\049_Class_virtual\obj\Debug\049_Class_virtual.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\049_Class_virtual\obj\Debug\049_Class_virtual.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\049_Class_virtual\bin\Debug\049_Class_virtual.exe.config
+D:\C#\DDazua\049_Class_virtual\bin\Debug\049_Class_virtual.exe
+D:\C#\DDazua\049_Class_virtual\bin\Debug\049_Class_virtual.pdb
+D:\C#\DDazua\049_Class_virtual\obj\Debug\049_Class_virtual.exe
+D:\C#\DDazua\049_Class_virtual\obj\Debug\049_Class_virtual.pdb

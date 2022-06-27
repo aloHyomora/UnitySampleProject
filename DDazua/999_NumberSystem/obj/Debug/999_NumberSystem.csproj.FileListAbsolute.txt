@@ -1,0 +1,8 @@
+D:\C#\DDazua\999_NumberSystem\bin\Debug\999_NumberSystem.exe.config
+D:\C#\DDazua\999_NumberSystem\bin\Debug\999_NumberSystem.exe
+D:\C#\DDazua\999_NumberSystem\bin\Debug\999_NumberSystem.pdb
+D:\C#\DDazua\999_NumberSystem\obj\Debug\999_NumberSystem.csproj.AssemblyReference.cache
+D:\C#\DDazua\999_NumberSystem\obj\Debug\999_NumberSystem.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\999_NumberSystem\obj\Debug\999_NumberSystem.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\999_NumberSystem\obj\Debug\999_NumberSystem.exe
+D:\C#\DDazua\999_NumberSystem\obj\Debug\999_NumberSystem.pdb

@@ -1,0 +1,8 @@
+D:\C#\DDazua\041_Constructor\bin\Debug\041_Constructor.exe.config
+D:\C#\DDazua\041_Constructor\bin\Debug\041_Constructor.exe
+D:\C#\DDazua\041_Constructor\bin\Debug\041_Constructor.pdb
+D:\C#\DDazua\041_Constructor\obj\Debug\041_Constructor.csproj.AssemblyReference.cache
+D:\C#\DDazua\041_Constructor\obj\Debug\041_Constructor.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\041_Constructor\obj\Debug\041_Constructor.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\041_Constructor\obj\Debug\041_Constructor.exe
+D:\C#\DDazua\041_Constructor\obj\Debug\041_Constructor.pdb

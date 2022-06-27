@@ -1,0 +1,8 @@
+D:\C#\DDazua\0000_break\bin\Debug\0000_break.exe.config
+D:\C#\DDazua\0000_break\bin\Debug\0000_break.exe
+D:\C#\DDazua\0000_break\bin\Debug\0000_break.pdb
+D:\C#\DDazua\0000_break\obj\Debug\0000_break.csproj.AssemblyReference.cache
+D:\C#\DDazua\0000_break\obj\Debug\0000_break.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\0000_break\obj\Debug\0000_break.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\0000_break\obj\Debug\0000_break.exe
+D:\C#\DDazua\0000_break\obj\Debug\0000_break.pdb

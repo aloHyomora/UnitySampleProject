@@ -1,0 +1,7 @@
+D:\C#\DDazua\aaaa\bin\Debug\aaaa.exe.config
+D:\C#\DDazua\aaaa\bin\Debug\aaaa.exe
+D:\C#\DDazua\aaaa\bin\Debug\aaaa.pdb
+D:\C#\DDazua\aaaa\obj\Debug\aaaa.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\aaaa\obj\Debug\aaaa.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\aaaa\obj\Debug\aaaa.exe
+D:\C#\DDazua\aaaa\obj\Debug\aaaa.pdb

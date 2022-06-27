@@ -1,0 +1,8 @@
+D:\C#\DDazua\037_Method_Recursion\bin\Debug\037_Method_Recursion.exe.config
+D:\C#\DDazua\037_Method_Recursion\bin\Debug\037_Method_Recursion.exe
+D:\C#\DDazua\037_Method_Recursion\bin\Debug\037_Method_Recursion.pdb
+D:\C#\DDazua\037_Method_Recursion\obj\Debug\037_Method_Recursion.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\037_Method_Recursion\obj\Debug\037_Method_Recursion.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\037_Method_Recursion\obj\Debug\037_Method_Recursion.exe
+D:\C#\DDazua\037_Method_Recursion\obj\Debug\037_Method_Recursion.pdb
+D:\C#\DDazua\037_Method_Recursion\obj\Debug\037_Method_Recursion.csproj.AssemblyReference.cache

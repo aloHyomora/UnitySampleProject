@@ -1,0 +1,7 @@
+D:\C#\DDazua\039_Method_delegate\bin\Debug\039_Method_delegate.exe.config
+D:\C#\DDazua\039_Method_delegate\bin\Debug\039_Method_delegate.exe
+D:\C#\DDazua\039_Method_delegate\bin\Debug\039_Method_delegate.pdb
+D:\C#\DDazua\039_Method_delegate\obj\Debug\039_Method_delegate.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\039_Method_delegate\obj\Debug\039_Method_delegate.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\039_Method_delegate\obj\Debug\039_Method_delegate.exe
+D:\C#\DDazua\039_Method_delegate\obj\Debug\039_Method_delegate.pdb

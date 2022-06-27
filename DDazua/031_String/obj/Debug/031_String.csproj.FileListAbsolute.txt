@@ -1,0 +1,8 @@
+D:\C#\DDazua\031_String\bin\Debug\031_String.exe.config
+D:\C#\DDazua\031_String\bin\Debug\031_String.exe
+D:\C#\DDazua\031_String\bin\Debug\031_String.pdb
+D:\C#\DDazua\031_String\obj\Debug\031_String.csproj.AssemblyReference.cache
+D:\C#\DDazua\031_String\obj\Debug\031_String.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\031_String\obj\Debug\031_String.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\031_String\obj\Debug\031_String.exe
+D:\C#\DDazua\031_String\obj\Debug\031_String.pdb

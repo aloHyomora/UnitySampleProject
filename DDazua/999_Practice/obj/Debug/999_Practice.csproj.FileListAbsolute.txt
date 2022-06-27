@@ -1,0 +1,8 @@
+D:\C#\DDazua\999_Practice\bin\Debug\999_Practice.exe.config
+D:\C#\DDazua\999_Practice\bin\Debug\999_Practice.exe
+D:\C#\DDazua\999_Practice\bin\Debug\999_Practice.pdb
+D:\C#\DDazua\999_Practice\obj\Debug\999_Practice.csproj.AssemblyReference.cache
+D:\C#\DDazua\999_Practice\obj\Debug\999_Practice.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\999_Practice\obj\Debug\999_Practice.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\999_Practice\obj\Debug\999_Practice.exe
+D:\C#\DDazua\999_Practice\obj\Debug\999_Practice.pdb

@@ -1,0 +1,8 @@
+D:\C#\DDazua\047_Class_Inheritance\bin\Debug\047_Class_Inheritance.exe.config
+D:\C#\DDazua\047_Class_Inheritance\bin\Debug\047_Class_Inheritance.exe
+D:\C#\DDazua\047_Class_Inheritance\bin\Debug\047_Class_Inheritance.pdb
+D:\C#\DDazua\047_Class_Inheritance\obj\Debug\047_Class_Inheritance.csproj.AssemblyReference.cache
+D:\C#\DDazua\047_Class_Inheritance\obj\Debug\047_Class_Inheritance.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\047_Class_Inheritance\obj\Debug\047_Class_Inheritance.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\047_Class_Inheritance\obj\Debug\047_Class_Inheritance.exe
+D:\C#\DDazua\047_Class_Inheritance\obj\Debug\047_Class_Inheritance.pdb

@@ -1,0 +1,8 @@
+D:\C#\DDazua\044_Class_this\bin\Debug\044_Class_this.exe.config
+D:\C#\DDazua\044_Class_this\bin\Debug\044_Class_this.exe
+D:\C#\DDazua\044_Class_this\bin\Debug\044_Class_this.pdb
+D:\C#\DDazua\044_Class_this\obj\Debug\044_Class_this.csproj.AssemblyReference.cache
+D:\C#\DDazua\044_Class_this\obj\Debug\044_Class_this.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\044_Class_this\obj\Debug\044_Class_this.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\044_Class_this\obj\Debug\044_Class_this.exe
+D:\C#\DDazua\044_Class_this\obj\Debug\044_Class_this.pdb

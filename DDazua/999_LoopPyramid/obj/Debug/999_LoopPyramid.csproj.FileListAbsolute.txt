@@ -1,0 +1,8 @@
+D:\C#\DDazua\LoopPyramid\bin\Debug\LoopPyramid.exe.config
+D:\C#\DDazua\LoopPyramid\bin\Debug\LoopPyramid.exe
+D:\C#\DDazua\LoopPyramid\bin\Debug\LoopPyramid.pdb
+D:\C#\DDazua\LoopPyramid\obj\Debug\999_LoopPyramid.csproj.AssemblyReference.cache
+D:\C#\DDazua\LoopPyramid\obj\Debug\999_LoopPyramid.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\LoopPyramid\obj\Debug\999_LoopPyramid.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\LoopPyramid\obj\Debug\LoopPyramid.exe
+D:\C#\DDazua\LoopPyramid\obj\Debug\LoopPyramid.pdb

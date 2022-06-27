@@ -1,0 +1,8 @@
+D:\C#\DDazua\043_Instance\bin\Debug\043_Instance.exe.config
+D:\C#\DDazua\043_Instance\bin\Debug\043_Instance.exe
+D:\C#\DDazua\043_Instance\bin\Debug\043_Instance.pdb
+D:\C#\DDazua\043_Instance\obj\Debug\043_Instance.csproj.AssemblyReference.cache
+D:\C#\DDazua\043_Instance\obj\Debug\043_Instance.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\043_Instance\obj\Debug\043_Instance.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\043_Instance\obj\Debug\043_Instance.exe
+D:\C#\DDazua\043_Instance\obj\Debug\043_Instance.pdb

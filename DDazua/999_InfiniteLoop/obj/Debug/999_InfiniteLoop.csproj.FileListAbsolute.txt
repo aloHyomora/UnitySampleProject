@@ -1,0 +1,8 @@
+D:\C#\DDazua\InfiniteLoop\bin\Debug\InfiniteLoop.exe.config
+D:\C#\DDazua\InfiniteLoop\bin\Debug\InfiniteLoop.exe
+D:\C#\DDazua\InfiniteLoop\bin\Debug\InfiniteLoop.pdb
+D:\C#\DDazua\InfiniteLoop\obj\Debug\999_InfiniteLoop.csproj.AssemblyReference.cache
+D:\C#\DDazua\InfiniteLoop\obj\Debug\999_InfiniteLoop.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\InfiniteLoop\obj\Debug\999_InfiniteLoop.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\InfiniteLoop\obj\Debug\InfiniteLoop.exe
+D:\C#\DDazua\InfiniteLoop\obj\Debug\InfiniteLoop.pdb

@@ -1,0 +1,7 @@
+D:\C#\DDazua\034_Mehod_CallBy\bin\Debug\034_Mehod_CallBy.exe.config
+D:\C#\DDazua\034_Mehod_CallBy\bin\Debug\034_Mehod_CallBy.exe
+D:\C#\DDazua\034_Mehod_CallBy\bin\Debug\034_Mehod_CallBy.pdb
+D:\C#\DDazua\034_Mehod_CallBy\obj\Debug\034_Mehod_CallBy.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\034_Mehod_CallBy\obj\Debug\034_Mehod_CallBy.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\034_Mehod_CallBy\obj\Debug\034_Mehod_CallBy.exe
+D:\C#\DDazua\034_Mehod_CallBy\obj\Debug\034_Mehod_CallBy.pdb

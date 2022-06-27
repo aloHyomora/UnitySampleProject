@@ -1,0 +1,8 @@
+D:\C#\DDazua\042_Destuctor\bin\Debug\042_Destuctor.exe.config
+D:\C#\DDazua\042_Destuctor\bin\Debug\042_Destuctor.exe
+D:\C#\DDazua\042_Destuctor\bin\Debug\042_Destuctor.pdb
+D:\C#\DDazua\042_Destuctor\obj\Debug\042_Destuctor.csproj.AssemblyReference.cache
+D:\C#\DDazua\042_Destuctor\obj\Debug\042_Destuctor.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\042_Destuctor\obj\Debug\042_Destuctor.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\042_Destuctor\obj\Debug\042_Destuctor.exe
+D:\C#\DDazua\042_Destuctor\obj\Debug\042_Destuctor.pdb

@@ -1,0 +1,8 @@
+D:\C#\DDazua\016_Mission\bin\Debug\016_Mission.exe.config
+D:\C#\DDazua\016_Mission\bin\Debug\016_Mission.exe
+D:\C#\DDazua\016_Mission\bin\Debug\016_Mission.pdb
+D:\C#\DDazua\016_Mission\obj\Debug\016_Mission.csproj.AssemblyReference.cache
+D:\C#\DDazua\016_Mission\obj\Debug\016_Mission.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\016_Mission\obj\Debug\016_Mission.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\016_Mission\obj\Debug\016_Mission.exe
+D:\C#\DDazua\016_Mission\obj\Debug\016_Mission.pdb
