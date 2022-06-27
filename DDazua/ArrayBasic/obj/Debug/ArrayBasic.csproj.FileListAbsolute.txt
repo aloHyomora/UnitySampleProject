@@ -1,0 +1,8 @@
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\bin\Debug\ArrayBasic.exe.config
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\bin\Debug\ArrayBasic.exe
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\bin\Debug\ArrayBasic.pdb
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\obj\Debug\ArrayBasic.csproj.AssemblyReference.cache
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\obj\Debug\ArrayBasic.csproj.SuggestedBindingRedirects.cache
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\obj\Debug\ArrayBasic.csproj.CoreCompileInputs.cache
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\obj\Debug\ArrayBasic.exe
+C:\Users\aloho\OneDrive\문서\GitHub\UNITYproject1\DDazua\ArrayBasic\obj\Debug\ArrayBasic.pdb
