@@ -1,0 +1,8 @@
+D:\C#\DDazua\999_BinarySearch\bin\Debug\999_BinarySearch.exe.config
+D:\C#\DDazua\999_BinarySearch\bin\Debug\999_BinarySearch.exe
+D:\C#\DDazua\999_BinarySearch\bin\Debug\999_BinarySearch.pdb
+D:\C#\DDazua\999_BinarySearch\obj\Debug\999_BinarySearch.csproj.AssemblyReference.cache
+D:\C#\DDazua\999_BinarySearch\obj\Debug\999_BinarySearch.csproj.SuggestedBindingRedirects.cache
+D:\C#\DDazua\999_BinarySearch\obj\Debug\999_BinarySearch.csproj.CoreCompileInputs.cache
+D:\C#\DDazua\999_BinarySearch\obj\Debug\999_BinarySearch.exe
+D:\C#\DDazua\999_BinarySearch\obj\Debug\999_BinarySearch.pdb
